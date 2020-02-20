@@ -1,0 +1,44 @@
+{
+  "name": "co-lark-api",
+  "version": "0.0.2",
+  "description": "飞书Node库API，ES6版本",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "config": {
+    "travis-cov": {
+      "threshold": 98
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ulion/co-lark-api.git"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "enterprise"
+  ],
+  "dependencies": {
+    "axios": "^0.16.2"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "coveralls": "*",
+    "expect.js": "*",
+    "istanbul": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "muk": "*",
+    "rewire": "*",
+    "travis-cov": "*",
+    "urllib": "*"
+  },
+  "author": "Ulion",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  }
+}
