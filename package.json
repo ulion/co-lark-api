@@ -21,7 +21,7 @@
     "enterprise"
   ],
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "co-mocha": "^1.1.2",
