@@ -1,6 +1,6 @@
 {
   "name": "co-lark-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "飞书Node库API，ES6版本",
   "main": "index.js",
   "scripts": {
