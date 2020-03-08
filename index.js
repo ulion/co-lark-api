@@ -42,7 +42,7 @@ mixin(CorpAPI, require('./lib/corp_user'))
 // 部门管理
 mixin(CorpAPI, require('./lib/corp_department'))
 // 标签管理
-mixin(CorpAPI, require('./lib/corp_tag'))
+mixin(CorpAPI, require('./lib/corp_message'))
 // 异步任务
 mixin(CorpAPI, require('./lib/corp_batch'))
 
@@ -50,7 +50,7 @@ mixin(CorpAPI, require('./lib/corp_batch'))
 // 第三方应用
 mixin(ISVAppAPI, require('./lib/isvapp'))
 // 第三方应用登录
-//mixin(SuiteAPI, require('./lib/suite_3rd_oauth'))
+mixin(ISVAppAPI, require('./lib/isvapp_oauth'))
 
 /* 微信企业服务商 */
 // 商户授权
